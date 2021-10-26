@@ -1,54 +1,143 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title> ABC Academy </title>
-   </head>
-   <style>
-      body {
-         background-image:url('https://image.freepik.com/free-photo/education-day-arrangement-table-with-copy-space_23-2148721266.jpg'); 
-         background-repeat: no-repeat;
-         background-attachment: fixed; 
-         background-size: cover;
-      }
-      .center {
-         display: block;
-         margin-left: auto;
-         margin-right: auto;
-         width: 50%;
-      }
-      .button {
-        background-color: blue;
-        border: black;
-        color: white;
-        padding: 10px 15px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 20px;
-        margin: 2px 2px;
-        cursor: pointer;
-      }
-      </style>
-   <body>
-      
-      <h1 style="font-size: 50px; color:black; text-align: center;"> Welcome to ABC Academy </h1>
-      <h3 style="font-size: 20px; color:darkturquoise; text-align: center;"><p title="ABC Academy"> Start You Preparation For JEE Today with ABC Academy. </p></h3>
-      </br>
-      <b> <h2> <strong> <p style="color:greenyellow;"> Sign Up Yourself To Enter The Academy. </p> </strong> </h2> </b>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Harsh Chaudhari</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-      <a href="signup.html"><b> Click here to Sign Up </b></a><br><br>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <ul style="list-style-type:square; float: left;">
-      <li><h1> Chapters </h1></li>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/modernizr.js"></script>
+</head>
 
-      <a href="11th.html" class="button"> 11th </a> &emsp;&emsp;
-      <a href="12th.html" class="button"> 12th </a> &emsp;&emsp;
+<body id="top">
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
 
-      <li><h1> IIT Dharwad 3<sup>rd</sup> SEM </h1></li>
-      <a href="subject.html" class="button"> Subjects </a> &emsp;&emsp;
-      <a href="timetable.html" class="button"> Time-Table </a> &emsp;&emsp;
+    <header class="s-header">
+        <div class="header-logo">
+            <a href="index.html">
+            </a>
+        </div>
 
-      </ul>
+        <div class="header-content">
+            <nav class="row header-nav-wrap">
+                <ul class="header-nav">
+                    <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
+                    <li><a class="smoothscroll" href="#about" title="About">About</a></li>
+                    <li><a class="smoothscroll" href="#services" title="Services">Project</a></li>
+                    <li><a class="smoothscroll" href="#portfolio" title="Works">Work</a></li>
+                </ul>
+            </nav>
+        </div>
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+    </header> 
 
-   </body>
-</html>
+    <section id="hero" class="s-hero target-section" data-parallax="scroll" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="row hero-content">
+                <h1>Hello, I'm Harsh Chaudhari<br><br><br><br></h1>
+        </div>
+
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-link smoothscroll">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 24l-8-9h6v-15h4v15h6z"/></svg>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="s-about target-section">
+        <div class="s-about__section s-about__section--profile">
+            <div class="right-vert-line"></div>
+            <div class="row">
+                <div class="column large-6 medium-8 tab-full">
+
+                    <div class="section-intro" data-num="01" data-aos="fade-up">
+                        <h2 class="subhead">About Me</h2>
+                        <h1 class="display-1">Student at IIT Dharwad.</h1>
+                    </div>
+
+                    <div class="profile-pic" data-aos="fade-up">
+                        <img src="images/profile-pic.jpg" 
+                             srcset="images/profile-pic.jpg 1x, images/profile-pic.jpg 2x" alt="">
+                    </div>
+                </div>
+            </div>
+            &emsp;&emsp;&emsp;&emsp;&emsp;College : IIT Dharwad, Karnataka<br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;Department : Computer Science<br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;E-mail : 200010007@iitdh.ac.in<br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;Locality : Gujarat<br>
+        </div>
+
+    <section id="services" class="s-services target-section h-dark-bg">
+        <div class="row s-services__content">
+            <div class="vert-line"></div>
+                <div class="section-intro" data-num="02" data-aos="fade-up">
+                    <h3 class="subhead">Project</h3>
+                    <h1 class="display-1">College Moodle</h1>
+                </div>
+                <div data-aos="fade-up">
+                <li>It notifies students about various college events and placement opportunities.</li>
+                <li>It helps in the smooth hosting of courses. Faculties can post assignments and students can evaluate the same and the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;same can be graded as well.</li>
+                <li>The Moodle application will have three modes of login: student login, administrator login, and staff login. The &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;administrator has the most authority.</li>
+                <li>Whenever a new event or notification is posted students are automatically notified of it by an Email/SMS.</li>
+                <li>It also informs the staff and gives them a list of students with high marks and those below standard attendance on a single &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button click.</li>
+                <li>It also includes a student grievances area where students may post college inconsistencies and other problems. These &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;posts will only be visible to the administrator.</li>
+                <li>Only staff, placement officer and administrator have the permission to post events. Students can view those notifications &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and react accordingly.</li>
+                <li>The Moodle should have provision for adding courses, faculties, and students.</li>
+                <li>Discussion forum for discussing on topics pertaining to course should also be present.</li><br><br><br><br>
+                </div>
+                <div class="section-intro" data-aos="fade-up">
+                    <h3 class="display-1" style="color :white;">Group Members :</h3>
+                </div>
+                <div data-aos="fade-up" style="text-align: left;">
+                <br><br><br>
+                1. Aaryya Das - Roll no. : 200010001<br>
+                2. Altmash Sheikh - Roll no. : 200010002<br>
+                3. Harsh Chaudhari - Roll no. : 200010007<br>
+                </div>
+            </div>
+    </section>
+
+    <section id="portfolio">
+        <br><br><br><br><br><br>
+        <div class="row s-portfolio__header">
+            <div class="column large-6 medium-8 tab-full">
+                <div class="section-intro" data-num="03" data-aos="fade-up">
+                    <h3 class="subhead">Works</h3>
+                    <h2>
+                        The Overview and the Roles of the php files.
+                    </h2>
+                </div>
+            </div>
+            <div data-aos="fade-up">
+                <li>addFaculty.php, administrator_addfaculty.php : These php files add the faculty after registration to the database.</li>
+                <li>addStudent.php, administrator_addstudent.php : These php files add the student after registration to the database.</li>
+                <li>home.php : This file is student’s dashboard page.</li>
+                <li>login.php : This file is for login portal.</li>
+                <li>logout.php : This file is for logout. Here we have included session out, so that after logging out, user would not like to get &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;redirected back to the last page where it left off.</li>
+                <li>notification.php : This file is for adding notification from teacher to database.</li>
+                <li>studentprofile.php : This file is to show the personal details of the student. It’s like your own profile.</li>
+                <li>teacher.php : This file is for the instructor’s dashboard.</li>
+                <li>teacherlab.php : This file is for showing the details of the files which have been uploaded by the student. This is mainly for &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the purpose of instructor.</li>
+                <li>validation.php : This file is used to check whether the user logging in is a student or a faculty of college.</li>
+                <li>administratorhome.php : This file is for the dashboard of administrator. Since it has different functionalities from the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;students and instructors’, it had to be created separately.</li>
+                <li>course_i.php : These are the dashboard pages of the respective course_i. Here i = 1, 2, 3.</li>
+                <li>fileopen.php : This file is for opening the submitted student’s assignments/projects files, tar, and zip.</li>
+                <li>highmarks_lowatt.php : This file redirects us to the details of students having high marks (>=80%) and low attendance &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<=80%). This is represented in the form of a table.</li>
+                <li>lab.php, upload.php : These files have been used for a page whereby the students will upload their assignments & projects.</li><br>
+                (Note:It is not complete yet, more file will be added soon.)<br>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
